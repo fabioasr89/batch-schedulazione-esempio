@@ -1,0 +1,13 @@
+spring:
+  application:
+      name: ProcessaUtenti
+  datasource:    username: root
+    password: 
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/userbatch
+  jpa:    show-sql: true
+server:  port: 9090
+
+schedulazione:
+    frequenza: 0 */1 * * * ?
+  
